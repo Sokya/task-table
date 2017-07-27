@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Debit Note</title>
+    <style>
+        body{
+            font-size: 14px;
+        }
+        .pageSize{
+            width: 21cm;
+            height: 29.7cm;
+            /*background-color: silver;*/
+            margin: 0 auto;
+        }
+        .header{
+            padding-top: 110px;
+            padding-bottom: 20px;
+        }
+        .header h2{
+            /*margin: -7px;*/
+            text-align: center;
+        }
+        .body{
+            width: 95%;
+            margin: 0 auto;
+            /*background-color: red;*/
+            /*height: 50px;*/
+        }
+        .tableInfo{
+            margin-top: 20px;
+        }
+        .tableInfo table {
+            border-top: 1px solid gray;
+            border-bottom: 1px solid gray;
+        }
+        .tableInfo table th{
+            border-bottom: 1px solid gray;
+            border-left: 1px solid gray;
+
+            /*border-bottom: 1px solid gray;*/
+        }
+        .tableInfo table td {
+            border: none;
+            border-left: 1px solid gray;
+        }
+        .footer{
+            width: 100%;
+            height: 100px;
+        }
+        .accountDepartment{
+            width: 27%;
+            float: left;
+            height: 100%;
+        }
+        .accountDepartment p{
+            text-align: center;
+        }
+        .remark{
+            width: 60%;
+            float: right;
+            height: 100%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="pageSize">
+
+        <div class="header">
+            <h2>DEBIT NOTE</h2>
+        </div>
+        <div class="body">
+            <div class="tableAddress">
+                <table>
+                    <tr>
+                        <td>
+                            Mr.CHHAY <br>
+                            Address:
+                        </td>
+                        <td style="width: 490px;"></td>
+                        <td>
+                            Invoice Date 25-May-2017
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="width: 490px;"></td>
+                        <td>Invoice: T-1705112 <br> <br> </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td style="width: 490px;"></td>
+                        <td>VAT IN: 107027518</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            BL <br>
+                            CN <br>
+                            IV <br>
+                            DATE <br>
+                            COMMODITY <br>
+                        </td>
+                        <td style="width: 480px;"></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="tableInfo">
+                <table cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th style="width: 450px">Description</th>
+                            <th>Qty</th>
+                            <th>Rate</th>
+                            <th style="border-right: 1px solid gray;">Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Customs Brokerage Service</td>
+                            <td></td>
+                            <td style="text-align: right">10.00</td>
+                            <td style="text-align: right; border-right: 1px solid gray;">10.00</td>
+                        </tr>
+                        <tr >
+                            <td style="padding-bottom: 450px;border-bottom: 1px solid gray"></td>
+                            <td style="padding-bottom: 450px;border-bottom: 1px solid gray"></td>
+                            <td style="padding-bottom: 450px;border-bottom: 1px solid gray"></td>
+                            <td style="padding-bottom: 450px;border-bottom: 1px solid gray; border-right: 1px solid gray;"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"></td>
+                            <td style="text-align: center; border-right: 1px solid gray;">$10.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="footer">
+                <div class="accountDepartment">
+                    <p>ACCOUNT DEPARTMENT</p>
+                </div>
+                <div class="remark">
+                    <p>
+                        <span style="float: left">Remark</span>
+                        <span style="float: right">25-May-2017 </span><br>
+                    </p>
+                    <p style="text-align: center; font-size: 13px">
+                        +If you note any discrepancies, please advice to account dapartment within 7 days
+                        form the date of receiving, otherwise the above amount considered as correct.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
